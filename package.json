@@ -1,0 +1,18 @@
+{
+  "name": "fhirprueba",
+  "version": "1.0.0",
+  "description": "Prueba",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asymmetrik/fhir-json-schema-validator": "^0.9.5",
+    "@asymmetrik/node-fhir-server-core": "^2.0.4",
+    "fast-json-patch": "^2.0.7",
+    "moment-timezone": "^0.5.14",
+    "var": "^0.3.2"
+  }
+}
