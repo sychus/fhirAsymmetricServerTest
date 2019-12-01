@@ -11,6 +11,7 @@ module.exports.search = (args) => new Promise((resolve, reject) => {
 module.exports.create = (args, { req }) => new Promise((resolve, reject) => {
     logger.info('Patient >>> insertamos');
     let paciente = req.body;
+    // Usamos el validador de asymmetric
     let validator = new JSONSchemaValidator();
     let errors = validator.validate(paciente);
     if (errors.length > 0) {

@@ -1,12 +1,12 @@
 {
   "name": "fhirprueba",
   "version": "1.0.0",
-  "description": "Prueba",
+  "description": "Server Fhir de juguete",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "author": "",
+  "author": "Sychus",
   "license": "ISC",
   "dependencies": {
     "@asymmetrik/fhir-json-schema-validator": "^0.9.5",
